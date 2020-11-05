@@ -18,10 +18,10 @@ INSERT INTO role
 VALUES
     ('Staffing Coordinator', 72000, 1),
     ('Graphic Designer', 81000, 5),
-    ('Developer', 119000, 3),
+    ('Multimedia Developer', 119000, 3),
     ('Writer', 92000, 5),
     ('Computer Engineer', 143000, 4),
-    ('Developer', 108000, 3),
+    ('Web Developer', 108000, 3),
     ('3D Graphics Programmer', 152000, 3),
     ('Accounter', 75000, 2),
     ('Sales Representative', 137000, 5);
