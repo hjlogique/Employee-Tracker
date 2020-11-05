@@ -5,7 +5,7 @@
 
   ## Description 
   
-  This application allows non-developer users to manage a company's employees by interacting with information stored in databases through a command line interface. Users can view all employees, thier managers, their roles and their departments. They can add, update and remove (delete) employees, their managers, roles and departments. Users can also By doing so users can control the information in database.
+  This application allows non-developer users to manage a company's employees by interacting with information stored in databases through a command line interface. Users can view all employees, their managers, their roles and their departments. They can add, update and remove (delete) employees, their managers, roles and departments. By doing so, users can modify the information in database.
  
   ## Table of Contents
   * [Installation](#installation)
@@ -18,7 +18,7 @@
   
   To run this application a `MySql` databese called `employee_tracker_db` with three specific tables, `employee`, `role` and `department` are required. The `empTrackerSchema.sql` file in the `db` folder generates the database and the tables. In the command line type `mysql -uroot -p > empTrackerSchema.sql` to generate them. The `empTrackerSeed.sql` file insert the information to the tables. In command line type `mysql -uroot -p -D employee_tracker_db > empTrackerSeed.sql` to insert the records. 
 
-  To run the application type the `npm i` command to install the NPM package dependencies specified in the `package.json` file. The required modules for this applcation are [inquirer](https://www.npmjs.com/package/inquirer), [mysql](https://www.npmjs.com/package/mysql), [promise-mysql](https://www.npmjs.com/package/promise-mysql), [console.table](https://www.npmjs.com/package/console.table), [asciiart-logo](https://www.npmjs.com/package/asciiart-logo).
+  To run the application type the `npm i` command to install the NPM package dependencies specified in the `package.json` file. The required modules for this application are [inquirer](https://www.npmjs.com/package/inquirer), [mysql](https://www.npmjs.com/package/mysql), [promise-mysql](https://www.npmjs.com/package/promise-mysql), [console.table](https://www.npmjs.com/package/console.table), [asciiart-logo](https://www.npmjs.com/package/asciiart-logo).
   Next type `node empTracker.js` to run the application. (watch the clip below)
 
   ![Demo of Software-Engineering-Team-Generator](/assets/employee_tracker.gif)
@@ -35,15 +35,15 @@
 
    * `View All Employees By Manager`: Allows users to select a manager first, then application displays all the employees assigned to that manager.
 
-   * `Add Employee`: Users can add new employees and asign them roles and managers.
+   * `Add Employee`: Users can add new employees and assign them roles and managers.
 
-   * `Update Employee Role`: Users can asign new roles to employees.
+   * `Update Employee Role`: Users can assign new roles to employees.
 
-   * `Update Employee Manager`: Users can asign new managers to employees.
+   * `Update Employee Manager`: Users can assign new managers to employees.
 
    * `Remove Employee`: Users remove (delete) employees.
 
-   * `Add Role`: Users can add new roles.
+   * `Add Role`: Users can add new roles and assign salaries to them. 
 
    * `Remove Role`: Users can remove (delete) roles.
 
@@ -51,7 +51,7 @@
 
    * `Remove Department`: Users can remove (delete) departments.
 
-   * `Departments Total Utilized Budget`: A list of departments with thier total budgets are displayed.
+   * `Departments Total Utilized Budget`: A list of departments with their total budgets is displayed.
 
   ## Contributing
   
