@@ -14,7 +14,7 @@ const conProp = { // Connection Properties
     host: "localhost",
     port: 3306,
     user: "root",
-    password: "mySql@Grif99",
+    password: "",
     database: "employee_tracker_db"
 }
 
